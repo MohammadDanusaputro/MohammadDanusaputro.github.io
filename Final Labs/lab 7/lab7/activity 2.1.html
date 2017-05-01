@@ -1,0 +1,24 @@
+<html>
+<body>
+<h1 id="aname" onclick="fClick()" ondblclick="fDblClick()" onmouseover="fHover()">
+I’m here. Click me / Double click me / Hover on me
+</h1>
+<h1 >
+Possible Events: Click / Double / Mouse over
+</h1>
+<script>
+function fClick()
+{
+   document.getElementById("aname").innerHTML = "You clicked me";
+}
+function fDblClick()
+{
+   document.getElementById("aname").innerHTML = "You double clicked me";
+}
+function fHover()
+{
+   document.getElementById("aname").innerHTML = "You are hovering on me";
+}
+</script>
+</body>
+</html>
